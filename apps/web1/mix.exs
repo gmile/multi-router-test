@@ -25,7 +25,8 @@ defmodule Web1.MixProject do
   defp deps do
     [
       {:phoenix, "~> 1.5"},
-      {:plug_cowboy, "~> 2.0"}
+      {:plug_cowboy, "~> 2.0"},
+      {:master_proxy, "~> 0.1"}
     ]
   end
 end
